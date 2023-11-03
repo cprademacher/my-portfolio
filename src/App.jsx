@@ -1,16 +1,12 @@
-import Navigation from "./components/Navigation";
-import Portfolio from "./pages/Portfolio";
-import AboutMe from "./pages/AboutMe";
-import Contact from "./pages/Contact";
+import Header from "./components/Header";
+import { Outlet } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Navigation />
-      <AboutMe />
-      <Portfolio />
-      <Contact />
+      <Header />
+      <Outlet />
     </>
   );
 }

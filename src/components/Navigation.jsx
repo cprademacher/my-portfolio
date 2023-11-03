@@ -5,7 +5,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
-            href="#about-me"
+            href="about-me"
             onClick={() => handlePageChange("about-me")}
             className={
               currentPage === "about-me" ? "nav-link active" : "nav-link"
@@ -16,7 +16,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
-            href="#portfolio"
+            href="portfolio"
             onClick={() => handlePageChange("portfolio")}
             className={
               currentPage === "portfolio" ? "nav-link active" : "nav-link"
@@ -27,13 +27,24 @@ export default function Navigation({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
-            href="#contact"
+            href="contact"
             onClick={() => handlePageChange("contact")}
             className={
               currentPage === "contact" ? "nav-link active" : "nav-link"
             }
           >
             Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="resume"
+            onClick={() => handlePageChange("resume")}
+            className={
+              currentPage === "resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
           </a>
         </li>
       </ul>
