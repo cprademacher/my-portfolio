@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 export default function Navigation() {
@@ -13,39 +14,37 @@ export default function Navigation() {
     <>
       <ul className="nav nav-tabs">
         <li
+          onClick={(e) => handlePageChange("about-me", e)}
           className={activeItem === "about-me" ? "nav-link active" : "nav-link"}
         >
-          <a href="about-me" onClick={(e) => handlePageChange("about-me", e)}>
-            About Me
-          </a>
+          <Link to="/about-me">About Me</Link>
         </li>
+
         <li
+          onClick={(e) => handlePageChange("portfolio", e)}
           className={
             activeItem === "portfolio" ? "nav-link active" : "nav-link"
           }
         >
-          <a href="portfolio" onClick={(e) => handlePageChange("portfolio", e)}>
-            Portfolio
-          </a>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
+
         <li
+          onClick={(e) => handlePageChange("contact", e)}
           className={activeItem === "contact" ? "nav-link active" : "nav-link"}
         >
-          <a href="contact" onClick={(e) => handlePageChange("contact", e)}>
-            Contact
-          </a>
+          <Link to="/contact">Contact</Link>
         </li>
+
         <li
+          onClick={(e) => handlePageChange("resume", e)}
           className={activeItem === "resume" ? "nav-link active" : "nav-link"}
         >
-          <a href="resume" onClick={(e) => handlePageChange("resume", e)}>
-            Resume
-          </a>
+          <Link to="/resume">Resume</Link>
         </li>
       </ul>
     </>
   );
 }
-
 
 // Install the Link capabilities
