@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 export default function Project({ title }) {
   return (
-    <li>
+    <li className="project-card">
       <img src="#" alt="a photo" />
       <h3>{title}</h3>
       <h4><a href="#">Link to deployed application</a></h4>

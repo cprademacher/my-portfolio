@@ -5,7 +5,7 @@ export default function Portfolio() {
     <>
       <h1>Portfolio</h1>
       <div className="container-fluid">
-        <ul className="list-group list-group">
+        <ul className="cards">
           <Project title="React App" />
           <Project title="Node App" />
           <Project title="Java App" />

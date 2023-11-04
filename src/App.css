@@ -6,6 +6,35 @@
   text-align: center;
 }
 
+.headshot {
+  max-width: 300px;
+}
 
+.about-me {
+  max-width: 300px;
+}
 
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.project-card {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 25px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
