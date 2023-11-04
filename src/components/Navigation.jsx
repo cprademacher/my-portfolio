@@ -46,3 +46,6 @@ export default function Navigation() {
     </>
   );
 }
+
+
+// Install the Link capabilities
