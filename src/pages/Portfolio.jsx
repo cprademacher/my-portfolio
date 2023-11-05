@@ -22,13 +22,3 @@ export default function Portfolio() {
     </>
   );
 }
-
-{
-  /* <Project title="React App" />
-          <Project title="Node App" />
-          <Project title="Java App" />
-          <Project title="JavaScript App" />
-          <Project title="C# App" />
-          <Project title="Curry App" />
-          <Project title="AWS App" /> */
-}
