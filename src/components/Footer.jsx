@@ -1,7 +1,11 @@
 export default function Footer() {
   return (
     <>
-      <h1>Footer</h1>
+      <ul className="footer-list container-fluid">
+        <li className="footer-item"><a>GitHub</a></li>
+        <li className="footer-item"><a>LinkedIn</a></li>
+        <li className="footer-item"><a>FaceBook</a></li>
+      </ul>
     </>
   );
 }
