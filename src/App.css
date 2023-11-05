@@ -27,6 +27,13 @@ body {
   align-items: center;
 }
 
+.nav-tabs {
+  width: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .headshot {
   max-width: 300px;
 }
@@ -77,4 +84,15 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.footer-item {
+  list-style: none;
+  text-decoration: underline;
+}
+
+.footer-item:hover {
+  cursor: pointer;
+  transform: rotate(-5deg);
+  font-size: 20px;
 }
