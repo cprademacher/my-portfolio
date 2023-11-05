@@ -1,0 +1,60 @@
+const projectData = [
+  {
+    id: 1,
+    imageSrc: "#",
+    imageAlt: "Project 1 screenshot",
+    title: "Project 1",
+    deployedLink: "Filler text for now",
+    githubLink: "Filler text for now",
+  },
+  {
+    id: 2,
+    imageSrc: "#",
+    imageAlt: "Project 2 screenshot",
+    title: "Project 2",
+    deployedLink: "Filler text for now",
+    githubLink: "Filler text for now",
+  },
+  {
+    id: 3,
+    imageSrc: "#",
+    imageAlt: "Project 3 screenshot",
+    title: "Project 3",
+    deployedLink: "Filler text for now",
+    githubLink: "Filler text for now",
+  },
+  {
+    id: 4,
+    imageSrc: "#",
+    imageAlt: "Project 4 screenshot",
+    title: "Project 4",
+    deployedLink: "Filler text for now",
+    githubLink: "Filler text for now",
+  },
+  {
+    id: 5,
+    imageSrc: "#",
+    imageAlt: "Project 5 screenshot",
+    title: "Project 5",
+    deployedLink: "Filler text for now",
+    githubLink: "Filler text for now",
+  },
+  {
+    id: 6,
+    imageSrc: "#",
+    imageAlt: "Project 6 screenshot",
+    title: "Project 6",
+    deployedLink: "Filler text for now",
+    githubLink: "Filler text for now",
+  },
+  {
+    id: 7,
+    imageSrc: "#",
+    imageAlt: "Project 7 screenshot",
+    title: "Project 7",
+    deployedLink: "Filler text for now",
+    githubLink: "Filler text for now",
+  },
+];
+
+export default projectData;
