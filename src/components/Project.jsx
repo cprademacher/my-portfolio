@@ -12,10 +12,10 @@ export default function Project({
       <img src={imageSrc} alt={imageAlt} />
       <h3>{title}</h3>
       <h4>
-        <a href={deployedLink}>Link to deployed application</a>
+        <a href={deployedLink} target="_blank" rel="noreferrer">Link to deployed application</a>
       </h4>
       <h4>
-        <a href={githubLink}>Link to corresponding github</a>
+        <a href={githubLink} target="_blank" rel="noreferrer">Link to corresponding github</a>
       </h4>
     </li>
   );
