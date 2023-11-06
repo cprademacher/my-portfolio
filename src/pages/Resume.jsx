@@ -7,12 +7,12 @@ export default function Resume() {
       <div className="proficiencies">
         <h5>Highlight of my proficiencies:</h5>
         <ul className="proficiencies-list">
-          <li className="proficiencies-item">First thing</li>
-          <li className="proficiencies-item">Second Thing</li>
-          <li className="proficiencies-item">Third thing</li>
-          <li className="proficiencies-item">Fourth Thing</li>
-          <li className="proficiencies-item">Fifth thing</li>
-          <li className="proficiencies-item">Sixth Thing</li>
+          <li className="proficiencies-item">Front End: HTML, CSS, JavaScript, React.js</li>
+          <li className="proficiencies-item">Back End: Express.js, Node.js RESTful API</li>
+          <li className="proficiencies-item">Software Development Tools: Visual Studio Code, Git, GitHub, Heroku</li>
+          <li className="proficiencies-item">Database Management: SQL, MongoDB</li>
+          <li className="proficiencies-item">Written & Verbal Communication</li>
+          <li className="proficiencies-item">Problem Solving and Algorithmic Thinking</li>
         </ul>
       </div>
       <div>

@@ -7,12 +7,8 @@
   text-align: center;
 }
 
-body {
-  width: 100%;
-}
-
-.everything {
-  width: 100%;
+.main {
+  margin-top: 60px;
 }
 
 .header-navbar {
@@ -74,13 +70,11 @@ body {
 }
 
 .resume-container {
-  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: orange;
 }
 
 .footer-list {
@@ -89,7 +83,7 @@ body {
   bottom: 0;
   height: 50px;
   width: 100%;
-  background-color: yellow;
+  background-color: thistle;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -105,4 +99,15 @@ body {
   cursor: pointer;
   transform: rotate(-5deg);
   font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-header {
+    font-size: 10px;
+  }
+
+  .nav-tabs {
+    width: 300px;
+    font-size: 10px;
+  }
 }
