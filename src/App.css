@@ -69,6 +69,16 @@
   color: black;
 }
 
+.proficiencies >h5 {
+  text-decoration: underline;
+}
+
+.proficiencies-item {
+  margin-top: 10px;
+  list-style: decimal;
+  padding: 5px;
+}
+
 .resume-container {
   width: 100%;
   display: flex;

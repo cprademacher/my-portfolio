@@ -26,9 +26,6 @@ const Contact = () => {
       return;
     }
 
-    // Submit the form
-    // Your code to handle form submission goes here
-
     // Reset form fields and errors
     setName("");
     setEmail("");
@@ -49,18 +46,6 @@ const Contact = () => {
     }
   };
 
-  const handleBlur = (event) => {
-    const { name, value } = event.target;
-
-    // Check if the required field is empty
-    if (value.trim() === "") {
-      setErrors((prevErrors) => ({
-        ...prevErrors,
-        [name]: "This field is required",
-      }));
-    }
-  };
-
   return (
     <>
       <div>
@@ -76,7 +61,6 @@ const Contact = () => {
             id="name"
             value={name}
             onChange={handleInputChange}
-            // onBlur={handleInputChange}
             required
           />
           {errors.name && <p>{errors.name}</p>}
@@ -90,7 +74,6 @@ const Contact = () => {
             id="email"
             value={email}
             onChange={handleInputChange}
-            // onBlur={handleBlur}
             required
           />
           {errors.email && <p>{errors.email}</p>}
@@ -103,7 +86,6 @@ const Contact = () => {
             id="message"
             value={message}
             onChange={handleInputChange}
-            // onBlur={handleBlur}
             required
           ></textarea>
           {errors.message && <p>{errors.message}</p>}
