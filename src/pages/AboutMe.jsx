@@ -4,7 +4,7 @@ export default function AboutMe() {
       <h2>About Me</h2>
       <img
         className="headshot"
-        src="../../src/assets/headshot.jpg"
+        src="/src/assets/img/headshot.jpg"
         alt="Headshot"
       />
       <p className="about-me">
