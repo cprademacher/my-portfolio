@@ -1,10 +1,12 @@
+import Headshot from '../assets/img/headshot.jpg'
+
 export default function AboutMe() {
   return (
     <div className="about-me-section">
       <h2>About Me</h2>
       <img
         className="headshot"
-        src="/src/assets/img/headshot.jpg"
+        src={Headshot}
         alt="Headshot"
       />
       <p className="about-me">

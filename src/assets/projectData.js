@@ -1,7 +1,7 @@
 const projectData = [
   {
     id: 1,
-    imageSrc: "/src/assets/img/Apparel-app-screenshot.png",
+    imageSrc: "./src/assets/img/Apparel-app-screenshot.png",
     imageAlt: "Apparel app screenshot",
     title: "Apparel Inventory Tracker",
     deployedLink: "https://ut-bros-apparel-0bcd7da3cb4b.herokuapp.com",
@@ -9,7 +9,7 @@ const projectData = [
   },
   {
     id: 2,
-    imageSrc: "/src/assets/img/Weather-app-screenshot.png",
+    imageSrc: "./src/assets/img/Weather-app-screenshot.png",
     imageAlt: "Weather App screenshot",
     title: "Weather App",
     deployedLink: "https://cprademacher.github.io/Weather-App",
@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     id: 3,
-    imageSrc: "/src/assets/img/Workday-planner-screenshot.png",
+    imageSrc: "./src/assets/img/Workday-planner-screenshot.png",
     imageAlt: "Workday planner screenshot",
     title: "Workday Planner",
     deployedLink: "https://cprademacher.github.io/Workday-Planner",
@@ -25,7 +25,7 @@ const projectData = [
   },
   {
     id: 4,
-    imageSrc: "/src/assets/img/JS-quiz-screenshot.png",
+    imageSrc: "./src/assets/img/JS-quiz-screenshot.png",
     imageAlt: "Project 4 screenshot",
     title: "JavaScript Quiz",
     deployedLink: "https://cprademacher.github.io/javascript-quiz",
@@ -33,7 +33,7 @@ const projectData = [
   },
   {
     id: 5,
-    imageSrc: "/src/assets/img/Horiseon-screenshot.png",
+    imageSrc: "./public/Horiseon-screenshot.png",
     imageAlt: "Horiseon screenshot",
     title: "Horiseon",
     deployedLink:
@@ -42,7 +42,7 @@ const projectData = [
   },
   {
     id: 6,
-    imageSrc: "/src/assets/img/Horiseon-screenshot.png",
+    imageSrc: "./src/assets/img/Horiseon-screenshot.png",
     imageAlt: "Horiseon screenshot",
     title: "Horiseon",
     deployedLink:
