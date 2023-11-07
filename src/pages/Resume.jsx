@@ -1,3 +1,5 @@
+import MyResume from '../assets/Resume-Software-Engineer.pdf';
+
 export default function Resume() {
   return (
     <div className="resume-container">
@@ -17,7 +19,7 @@ export default function Resume() {
       </div>
       <div>
         <h4>Download my full resume here!</h4>
-        <a href="src/assets/Resume-Software-Engineer.pdf" download>
+        <a href={MyResume} download>
           Download PDF
         </a>
       </div>

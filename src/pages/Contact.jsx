@@ -38,7 +38,7 @@ const Contact = () => {
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
-
+    console.log(name, value);
     // Update the corresponding state value based on the input field name
     if (name === "name") {
       setName(value);
@@ -71,11 +71,12 @@ const Contact = () => {
         <div>
           <label htmlFor="name">Name:</label>
           <input
+            name="name"
             type="text"
             id="name"
             value={name}
             onChange={handleInputChange}
-            onBlur={handleBlur}
+            // onBlur={handleInputChange}
             required
           />
           {errors.name && <p>{errors.name}</p>}
@@ -84,11 +85,12 @@ const Contact = () => {
         <div>
           <label htmlFor="email">Email:</label>
           <input
+            name="email"
             type="email"
             id="email"
             value={email}
             onChange={handleInputChange}
-            onBlur={handleBlur}
+            // onBlur={handleBlur}
             required
           />
           {errors.email && <p>{errors.email}</p>}
@@ -97,10 +99,11 @@ const Contact = () => {
         <div>
           <label htmlFor="message">Message:</label>
           <textarea
+            name="message"
             id="message"
             value={message}
             onChange={handleInputChange}
-            onBlur={handleBlur}
+            // onBlur={handleBlur}
             required
           ></textarea>
           {errors.message && <p>{errors.message}</p>}
