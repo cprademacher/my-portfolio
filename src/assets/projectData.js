@@ -1,11 +1,11 @@
 const projectData = [
   {
     id: 1,
-    imageSrc: "./Apparel-app-screenshot.png",
-    imageAlt: "Apparel app screenshot",
-    title: "Apparel Inventory Tracker",
-    deployedLink: "https://ut-bros-apparel-0bcd7da3cb4b.herokuapp.com",
-    githubLink: "https://github.com/cprademacher/apparel-database",
+    imageSrc: "./Collect-Connect-Screenshot.png",
+    imageAlt: "CollectConnect app screenshot",
+    title: "CollectConnect",
+    deployedLink: "https://boiling-anchorage-11027-d19406c04dfb.herokuapp.com/",
+    githubLink: "https://github.com/DanielTBonn/collectors-connect",
   },
   {
     id: 2,
@@ -33,12 +33,11 @@ const projectData = [
   },
   {
     id: 5,
-    imageSrc: "./Horiseon-screenshot.png",
-    imageAlt: "Horiseon screenshot",
-    title: "Horiseon",
-    deployedLink:
-      "https://cprademacher.github.io/Horiseon-Website-Optimization/",
-    githubLink: "https://github.com/cprademacher/Horiseon-Website-Optimization",
+    imageSrc: "./Apparel-app-screenshot.png",
+    imageAlt: "Apparel app screenshot",
+    title: "Apparel Inventory Tracker",
+    deployedLink: "https://ut-bros-apparel-0bcd7da3cb4b.herokuapp.com",
+    githubLink: "https://github.com/cprademacher/apparel-database",
   },
   {
     id: 6,
