@@ -1,7 +1,7 @@
 const projectData = [
   {
     id: 1,
-    imageSrc: "src/assets/img/Collect-Connect-Screenshot.png",
+    imageSrc: "./Collect-Connect-Screenshot.png",
     imageAlt: "CollectConnect app screenshot",
     title: "CollectConnect",
     deployedLink: "https://boiling-anchorage-11027-d19406c04dfb.herokuapp.com/",
