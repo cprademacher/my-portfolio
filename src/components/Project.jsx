@@ -1,4 +1,7 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
+import Button from "./Button";
+
 // eslint-disable-next-line react/prop-types
 export default function Project({
   imageSrc,
@@ -11,12 +14,23 @@ export default function Project({
     <li className="project-card">
       <img src={imageSrc} alt={imageAlt} />
       <h3>{title}</h3>
-      <h4>
-        <a href={deployedLink} target="_blank" rel="noreferrer">Link to deployed application</a>
-      </h4>
-      <h4>
-        <a href={githubLink} target="_blank" rel="noreferrer">Link to corresponding github</a>
-      </h4>
+      <div className="card-buttons">
+        <Link to={deployedLink}>
+          <Button
+            text="Application"
+            href={deployedLink}
+            target="_blank"
+            rel="noreferrer"
+          />
+        </Link>
+        <Link to={githubLink}>
+          <Button
+            text="GitHub"
+            target="_blank"
+            rel="noreferrer"
+          />
+        </Link>
+      </div>
     </li>
   );
 }

@@ -64,6 +64,7 @@
 .project-card {
   height: 300px;
   width: 300px;
+  background-color: var(--color-third);
   border-radius: 5px;
   margin: 25px;
   list-style: none;
@@ -71,12 +72,8 @@
   flex-direction: column;
   justify-content: space-around;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease;
 }
 
-.project-card:hover {
-  transform: scale(1.1);
-}
 
 .project-card img {
   margin: 5px;
@@ -94,6 +91,18 @@
   flex-wrap: wrap;
 }
 
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 12px;
+  gap: 10px;
+}
+
+.card-buttons button {
+  color: var(--color-fifth)
+}
+
 .chosen {
   font-size: 20px;
   font-weight: 700;
@@ -108,6 +117,30 @@
   margin-top: 10px;
   list-style: decimal;
   padding: 5px;
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  width: 40%;
+  min-height: 50vh;
+  background-color: var(--color-third);
+}
+
+form * {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button-input, .button-input button {
+  margin-top: 15px;
+  color: var(--color-fifth);
 }
 
 .resume-container {
