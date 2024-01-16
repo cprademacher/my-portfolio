@@ -3,7 +3,7 @@ import Headshot from '../assets/img/headshot.jpg'
 export default function AboutMe() {
   return (
     <div className="about-me-section">
-      <h2>About Me</h2>
+      <h1>About Me</h1>
       <img
         className="headshot"
         src={Headshot}

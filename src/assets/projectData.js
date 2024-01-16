@@ -10,8 +10,8 @@ const projectData = [
   {
     id: 2,
     imageSrc: "./Weather-app-screenshot.png",
-    imageAlt: "Weather App screenshot",
-    title: "Weather App",
+    imageAlt: "Which Mountain App screenshot",
+    title: "Which Mountain",
     deployedLink: "https://cprademacher.github.io/Weather-App",
     githubLink: "https://github.com/cprademacher/Weather-App",
   },
@@ -26,27 +26,18 @@ const projectData = [
   {
     id: 4,
     imageSrc: "./JS-quiz-screenshot.png",
-    imageAlt: "Project 4 screenshot",
-    title: "JavaScript Quiz",
+    imageAlt: "ECommerce Website screenshot",
+    title: "ECommerce Website",
     deployedLink: "https://cprademacher.github.io/javascript-quiz",
     githubLink: "https://github.com/cprademacher/javascript-quiz",
   },
   {
     id: 5,
     imageSrc: "./Apparel-app-screenshot.png",
-    imageAlt: "Apparel app screenshot",
-    title: "Apparel Inventory Tracker",
+    imageAlt: "ECommerce Admin Page screenshot",
+    title: "ECommerce Admin",
     deployedLink: "https://ut-bros-apparel-0bcd7da3cb4b.herokuapp.com",
     githubLink: "https://github.com/cprademacher/apparel-database",
-  },
-  {
-    id: 6,
-    imageSrc: "./Horiseon-screenshot.png",
-    imageAlt: "Horiseon screenshot",
-    title: "Horiseon",
-    deployedLink:
-      "https://cprademacher.github.io/Horiseon-Website-Optimization/",
-    githubLink: "https://github.com/cprademacher/Horiseon-Website-Optimization",
   },
 ];
 

@@ -3,10 +3,10 @@ import projectData from "../assets/projectData.js";
 
 export default function Portfolio() {
   return (
-    <>
+    <div className="portfolio">
       <h1>Portfolio</h1>
       <div className="container-fluid">
-        <ul className="cards">
+        <ul className="cards projects">
           {projectData.map((project) => (
             <Project
               key={project.id}
@@ -19,6 +19,6 @@ export default function Portfolio() {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 }
