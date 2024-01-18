@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     id: 3,
-    imageSrc: "./which-mountain-screenshot.png",
+    imageSrc: "./ECommerce-Website-Screenshot.png",
     imageAlt: "ECommerce Website screenshot",
     title: "ECommerce Website",
     deployedLink: "https://cprademacher.github.io/Workday-Planner",
