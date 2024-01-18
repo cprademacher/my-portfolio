@@ -47,18 +47,21 @@
 }
 
 .headshot {
-  max-width: 300px;
-}
-
-.about-me {
-  max-width: 500px;
+  max-width: 70%;
 }
 
 .about-me-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.about-me-info {
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 .project-card {
@@ -73,7 +76,6 @@
   justify-content: space-around;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-
 
 .project-card img {
   margin: 5px;
@@ -100,7 +102,7 @@
 }
 
 .card-buttons button {
-  color: var(--color-fifth)
+  color: var(--color-fifth);
 }
 
 .chosen {
@@ -138,7 +140,8 @@ form * {
   align-items: center;
 }
 
-.button-input, .button-input button {
+.button-input,
+.button-input button {
   margin-top: 15px;
   color: var(--color-fifth);
 }
@@ -149,6 +152,10 @@ form * {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.resume-button {
+  background-color: bisque;
 }
 
 .footer-list {
@@ -174,7 +181,8 @@ form * {
   font-size: 20px;
 }
 
-p, ul {
+p,
+ul {
   color: var(--color-fifth);
 }
 
@@ -186,5 +194,18 @@ p, ul {
   .nav-tabs {
     width: 300px;
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-me-section {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .headshot {
+    max-width: 60%;
   }
 }

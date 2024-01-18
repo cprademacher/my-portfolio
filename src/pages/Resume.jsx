@@ -1,6 +1,13 @@
-import MyResume from '../assets/Resume-Software-Engineer.pdf';
+import Button from "../components/Button";
+import MyResume from '../assets/Resume.pdf';
 
 export default function Resume() {
+
+    const openPdf = () => {
+        window.open(MyResume, '_blank');
+    };
+
+
   return (
     <div className="resume-container">
       <div>
@@ -19,9 +26,7 @@ export default function Resume() {
       </div>
       <div>
         <h4>Download my full resume here!</h4>
-        <a href={MyResume} download>
-          Download PDF
-        </a>
+        <Button text="Download PDF" onClick={openPdf} className="resume-button"></Button>
       </div>
     </div>
   );
