@@ -13,6 +13,7 @@
   padding: 0;
   text-align: center;
   background-color: var(--color-second);
+  font-size: 1.1em;
 }
 
 .main {
@@ -65,8 +66,12 @@
   margin: 0 auto;
 }
 
+.to-projects-button {
+  color: var(--color-fourth);
+}
+
 .project-card {
-  height: 450px;
+  height: 400px;
   width: 450px;
   background-color: var(--color-third);
   border-radius: 5px;
@@ -126,6 +131,10 @@
 
 .contact-info p {
   font-size: 1.4em;
+}
+
+.contact-info strong {
+  color: var(--color-fourth);
 }
 
 .chosen {

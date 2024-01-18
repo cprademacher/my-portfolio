@@ -1,4 +1,5 @@
 import ProfilePhoto from "../assets/img/Profile-Photo.jpeg";
+import { Link } from "react-router-dom";
 
 export default function AboutMe() {
   return (
@@ -26,6 +27,9 @@ export default function AboutMe() {
             recent years, and a big goal of mine is to get my private pilot
             license.
           </p>
+          <button>
+            <Link to="/portfolio">See Projects</Link>
+          </button>
         </div>
       </div>
     </>
