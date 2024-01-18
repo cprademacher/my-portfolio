@@ -6,7 +6,7 @@ export default function Header() {
     <nav className="header-navbar">
       <div className="navbar-header">
         <h1>
-          <Link to="/">Cody Rademacher</Link>
+          <Link to="/about-me">Cody Rademacher</Link>
         </h1>
       </div>
       <div className="navbar-nav-items">
