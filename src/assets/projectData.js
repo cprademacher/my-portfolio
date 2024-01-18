@@ -20,7 +20,8 @@ const projectData = [
     imageSrc: "./ECommerce-Website-Screenshot.png",
     imageAlt: "ECommerce Website screenshot",
     title: "ECommerce Website",
-    deployedLink: "https://cprademacher.github.io/Workday-Planner",
+    deployedLink:
+      "https://drive.google.com/file/d/1Mub0PfnQNX7Szr_NwK7oKbNqUkwGWGYF/view",
     githubLink: "https://github.com/cprademacher/ecommerce-website",
   },
   {
