@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     id: 3,
-    imageSrc: "./Workday-planner-screenshot.png",
+    imageSrc: "./which-mountain-screenshot.png",
     imageAlt: "ECommerce Website screenshot",
     title: "ECommerce Website",
     deployedLink: "https://cprademacher.github.io/Workday-Planner",
@@ -25,10 +25,11 @@ const projectData = [
   },
   {
     id: 4,
-    imageSrc: "./Ecommerce-Admin-Screenshot.png",
+    imageSrc: "./ECommerce-Admin-Screenshot.png",
     imageAlt: "ECommerce Admin Page screenshot",
     title: "ECommerce Admin",
-    deployedLink: "https://drive.google.com/file/d/1Mub0PfnQNX7Szr_NwK7oKbNqUkwGWGYF/view",
+    deployedLink:
+      "https://drive.google.com/file/d/1Mub0PfnQNX7Szr_NwK7oKbNqUkwGWGYF/view",
     githubLink: "https://github.com/cprademacher/ecommerce-admin",
   },
 ];

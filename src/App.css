@@ -48,6 +48,7 @@
 
 .headshot {
   max-width: 70%;
+  border-radius: 5px;
 }
 
 .about-me-section {
@@ -65,8 +66,8 @@
 }
 
 .project-card {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
   background-color: var(--color-third);
   border-radius: 5px;
   margin: 25px;
@@ -74,12 +75,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .project-card img {
-  margin: 5px;
   border-radius: 5px;
+  height: 250px;
+  width: 350px;
+  object-fit: contain;
 }
 
 .portfolio {
@@ -207,5 +211,17 @@ ul {
 
   .headshot {
     max-width: 60%;
+  }
+
+  .project-card {
+    height: 350px;
+    width: 350px;
+  }
+
+  .project-card img {
+    border-radius: 5px;
+    height: 180px;
+    width: 280px;
+    object-fit: contain;
   }
 }
