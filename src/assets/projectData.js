@@ -1,7 +1,8 @@
 const projectData = [
   {
     id: 1,
-    imageSrc: "./Collect-Connect-Screenshot.png",
+    imageSrc:
+      "https://codyrad-portfolio.s3.amazonaws.com/Collect-Connect-Screenshot.png",
     imageAlt: "CollectConnect app screenshot",
     title: "CollectConnect",
     deployedLink: "https://boiling-anchorage-11027-d19406c04dfb.herokuapp.com/",
@@ -9,7 +10,8 @@ const projectData = [
   },
   {
     id: 2,
-    imageSrc: "./which-mountain-screenshot.png",
+    imageSrc:
+      "https://codyrad-portfolio.s3.amazonaws.com/which-mountain-screenshot.png",
     imageAlt: "Which Mountain App screenshot",
     title: "Which Mountain",
     deployedLink: "https://main.d2tzffnlb7caad.amplifyapp.com/",
@@ -17,7 +19,8 @@ const projectData = [
   },
   {
     id: 3,
-    imageSrc: "./ECommerce-Website-Screenshot.png",
+    imageSrc:
+      "https://codyrad-portfolio.s3.amazonaws.com/ECommerce-Website-Screenshot.png",
     imageAlt: "ECommerce Website screenshot",
     title: "ECommerce Website",
     deployedLink:
@@ -26,7 +29,8 @@ const projectData = [
   },
   {
     id: 4,
-    imageSrc: "./ECommerce-Admin-Screenshot.png",
+    imageSrc:
+      "https://codyrad-portfolio.s3.amazonaws.com/ECommerce-Admin-Screenshot.png",
     imageAlt: "ECommerce Admin Page screenshot",
     title: "ECommerce Admin",
     deployedLink:
