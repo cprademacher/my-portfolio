@@ -2,11 +2,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import ErrorPage from './pages/ErrorPage.jsx';
-import AboutMe from './pages/AboutMe.jsx';
-import Portfolio from './pages/Portfolio.jsx';
-import Contact from './pages/Contact.jsx';
-import Resume from './pages/Resume.jsx';
+import ErrorPage from "./pages/ErrorPage.jsx";
+import AboutMe from "./pages/AboutMe.jsx";
+import Portfolio from "./pages/Portfolio.jsx";
+import Contact from "./pages/Contact.jsx";
+import Resume from "./pages/Resume.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -15,33 +15,33 @@ import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <AboutMe />
+        element: <Portfolio />,
       },
       {
-        path: '/about-me',
-        element: <AboutMe />
+        path: "/about-me",
+        element: <AboutMe />,
       },
       {
-        path: '/portfolio',
-        element: <Portfolio />
+        path: "/portfolio",
+        element: <Portfolio />,
       },
       {
-        path: '/contact',
-        element: <Contact />
+        path: "/contact",
+        element: <Contact />,
       },
       {
-        path: '/resume',
-        element: <Resume />
-      }
-    ]
-  }
-])
+        path: "/resume",
+        element: <Resume />,
+      },
+    ],
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />

@@ -29,18 +29,6 @@ export default function Navigation() {
     <>
       <ul className="nav nav-tabs">
         <li
-          onClick={(e) => handlePageChange("about-me", e)}
-          className="navigation-item"
-        >
-          <Link
-            to="/about-me"
-            className={activeItem === "about-me" ? "chosen" : ""}
-          >
-            About Me
-          </Link>
-        </li>
-
-        <li
           onClick={(e) => handlePageChange("portfolio", e)}
           className="navigation-item"
         >
@@ -49,6 +37,18 @@ export default function Navigation() {
             className={activeItem === "portfolio" ? "chosen" : ""}
           >
             Portfolio
+          </Link>
+        </li>
+
+        <li
+          onClick={(e) => handlePageChange("about-me", e)}
+          className="navigation-item"
+        >
+          <Link
+            to="/about-me"
+            className={activeItem === "about-me" ? "chosen" : ""}
+          >
+            About Me
           </Link>
         </li>
 

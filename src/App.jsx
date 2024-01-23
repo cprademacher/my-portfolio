@@ -8,7 +8,7 @@ function App() {
     <div className="everything">
       <Header />
       <div className="main">
-      <Outlet />
+        <Outlet />
       </div>
       <Footer />
     </div>
