@@ -42,11 +42,13 @@ const StyledNav = styled.nav`
   right: 0;
   padding: 70px 20px 20px;
   background-color: #687864;
+  margin-top: 20px;
   @media screen and (min-width: 800px) {
     display: flex;
     position: static;
     padding: 0;
     background-color: transparent;
+    margin-top: 0;
   }
 `;
 
@@ -55,8 +57,10 @@ const NavLink = styled(Link)`
   color: #f7f9fb;
   text-decoration: none;
   padding: 5px 0;
+  font-size: 1.6em;
   @media screen and (min-width: 800px) {
     padding: 0;
+    font-size: 1em;
   }
 `;
 
