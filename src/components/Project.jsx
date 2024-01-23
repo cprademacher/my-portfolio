@@ -9,28 +9,30 @@ export default function Project({
   title,
   deployedLink,
   githubLink,
+  description,
 }) {
   return (
-    <li className="project-card">
-      <img src={imageSrc} alt={imageAlt} />
-      <h3>{title}</h3>
-      <div className="card-buttons">
-        <Link to={deployedLink}>
-          <Button
-            text="Application"
-            href={deployedLink}
-            target="_blank"
-            rel="noreferrer"
-          />
-        </Link>
-        <Link to={githubLink}>
-          <Button
-            text="GitHub"
-            target="_blank"
-            rel="noreferrer"
-          />
-        </Link>
+    <div className="card-and-description">
+      <li className="project-card">
+        <img src={imageSrc} alt={imageAlt} />
+        <h3>{title}</h3>
+        <div className="card-buttons">
+          <Link to={deployedLink}>
+            <Button
+              text="Application"
+              href={deployedLink}
+              target="_blank"
+              rel="noreferrer"
+            />
+          </Link>
+          <Link to={githubLink}>
+            <Button text="GitHub" target="_blank" rel="noreferrer" />
+          </Link>
+        </div>
+      </li>
+      <div className="project-description-container">
+        <p className="project-description">{description}</p>
       </div>
-    </li>
+    </div>
   );
 }
