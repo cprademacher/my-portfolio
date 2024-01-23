@@ -20,15 +20,6 @@ export default function Footer() {
             LinkedIn
           </a>
         </li>
-        <li className="footer-item">
-          <a
-            href="https://www.facebook.com/cody.rademacher.3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            FaceBook
-          </a>
-        </li>
       </ul>
     </>
   );
