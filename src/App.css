@@ -94,10 +94,7 @@
 }
 
 .project-card img {
-  border-radius: 5px;
-  height: 250px;
-  width: 350px;
-  object-fit: contain;
+  margin: 10px;
 }
 
 .portfolio {
@@ -145,6 +142,13 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+}
+
+.card-image {
+  border-radius: 5px;
+  height: auto;
+  width: 350px;
+  object-fit: contain;
 }
 
 .contact-page {
@@ -292,6 +296,12 @@ ul {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .project-description {
+    font-size: 1em;
+  }
+}
+
 @media screen and (max-width: 800px) {
   #root {
     font-size: 0.9em;
@@ -309,14 +319,13 @@ ul {
   }
 
   .project-card {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
   }
 
   .project-card img {
-    border-radius: 5px;
-    height: 180px;
-    width: 280px;
+    height: auto;
+    width: 270px;
     object-fit: contain;
   }
 
@@ -327,10 +336,18 @@ ul {
     align-items: center;
   }
 
+  .project-description {
+    font-size: 1.1em;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
   .card-and-description {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0;
+    margin: 0 auto;
   }
 
   .card-and-description:nth-child(even) {

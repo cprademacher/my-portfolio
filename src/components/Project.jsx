@@ -14,7 +14,7 @@ export default function Project({
   return (
     <div className="card-and-description">
       <li className="project-card">
-        <img src={imageSrc} alt={imageAlt} />
+        <img className="card-image" src={imageSrc} alt={imageAlt} />
         <h3>{title}</h3>
         <div className="card-buttons">
           <Link to={deployedLink}>
