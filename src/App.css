@@ -72,6 +72,7 @@
 .about-me-info {
   max-width: 50%;
   margin: 0 auto;
+  font-size: 1.3em;
 }
 
 .to-projects-button {
@@ -105,7 +106,7 @@
 
 .cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -120,6 +121,30 @@
 
 .card-buttons button {
   color: var(--color-fifth);
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-description {
+  font-size: 1.5em;
+  color: #f7f9fb;
+}
+
+.card-and-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+}
+
+.card-and-description:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .contact-page {
@@ -293,5 +318,24 @@ ul {
     height: 180px;
     width: 280px;
     object-fit: contain;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-and-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-and-description:nth-child(even) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
