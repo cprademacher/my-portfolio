@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --color-first: #687864;
   --color-second: #31708e;
   --color-third: #5085a5;
@@ -67,4 +67,4 @@ button:focus-visible {
   h1 {
     font-size: 2.5em;
   }
-}
+} */

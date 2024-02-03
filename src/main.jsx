@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
-import Portfolio from "./pages/Portfolio.jsx";
+import Portfolio2 from "./pages/Portfolio2.jsx";
 import Contact from "./pages/Contact.jsx";
 import Resume from "./pages/Resume.jsx";
 
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Portfolio />,
+        element: <Portfolio2 />,
       },
       {
         path: "/about-me",
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/portfolio",
-        element: <Portfolio />,
+        element: <Portfolio2 />,
       },
       {
         path: "/contact",
