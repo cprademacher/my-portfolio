@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function BarsIcon({ className = "w-6 h-6" }) {
   return (
     <svg

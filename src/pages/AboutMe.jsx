@@ -27,7 +27,7 @@ export default function AboutMe() {
             recent years, and a big goal of mine is to get my private pilot
             license.
           </p>
-          <button>
+          <button className="to-projects-button">
             <Link to="/portfolio">See Projects</Link>
           </button>
         </div>
