@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
-import AboutMe from "./pages/AboutMe.jsx";
+import AboutMe2 from "./pages/AboutMe2.jsx";
 import Portfolio2 from "./pages/Portfolio2.jsx";
 import Contact from "./pages/Contact.jsx";
 import Resume from "./pages/Resume.jsx";
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about-me",
-        element: <AboutMe />,
+        element: <AboutMe2 />,
       },
       {
         path: "/portfolio",
