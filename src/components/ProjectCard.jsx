@@ -20,12 +20,12 @@ function ProjectCard({
         <Stack
           direction="horizontal"
           gap={2}
-          className="justify-content-center my-2"
+          className="justify-content-center"
         >
           <Button href={deployedLink} variant="primary">
             Application
           </Button>
-          <Button href={githubLink} varient="primary">
+          <Button href={githubLink} variant="primary">
             GitHub
           </Button>
         </Stack>

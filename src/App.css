@@ -16,13 +16,13 @@
   font-size: 1.1em;
 } */
 
-/* .main {
+.main {
   margin-top: 40px;
-  color: var(--color-fourth);
-  background-color: var(--color-second);
+  margin-bottom: 40px;
   min-height: 100vh;
 }
 
+/*
 .header-navbar {
   background-color: var(--color-first);
   width: 100%;
