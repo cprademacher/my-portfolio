@@ -1,4 +1,8 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
   --color-first: #687864;
   --color-second: #31708e;
   --color-third: #5085a5;
@@ -62,5 +66,72 @@ button:focus-visible {
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 2.5em;
+  }
+} */
+
+h1 {
+  font-size: 3.2em !important;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contact-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.about-me-text {
+  font-size: 1.5em;
+}
+
+h5 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.proficiencies-item {
+  margin-top: 10px;
+  list-style: decimal;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.resume-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .resume-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .proficiencies-item {
+    margin-top: 10px;
+    list-style: decimal;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-me-text {
+    font-size: 1.1em;
   }
 }
