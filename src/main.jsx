@@ -5,8 +5,8 @@ import App from "./App.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import AboutMe2 from "./pages/AboutMe2.jsx";
 import Portfolio2 from "./pages/Portfolio2.jsx";
-import Contact from "./pages/Contact.jsx";
-import Resume from "./pages/Resume.jsx";
+import Contact2 from "./pages/Contact2.jsx";
+import Resume2 from "./pages/Resume2.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -33,11 +33,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Contact />,
+        element: <Contact2 />,
       },
       {
         path: "/resume",
-        element: <Resume />,
+        element: <Resume2 />,
       },
     ],
   },

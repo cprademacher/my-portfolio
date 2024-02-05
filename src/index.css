@@ -69,6 +69,11 @@ button:focus-visible {
   }
 } */
 
+.contact-link {
+  color: blue;
+  text-decoration: underline;
+}
+
 .about-me-text {
   font-size: 1.5em;
 }
