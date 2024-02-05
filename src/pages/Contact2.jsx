@@ -22,7 +22,7 @@ function Contact2() {
     <>
       <Container>
         <h1>Contact</h1>
-        <Card>
+        <Card style={{ border: "none" }}>
           <Stack
             direction={isMdOrAbove ? "horizontal" : "vertical"}
             className={isMdOrAbove ? mdClass : smClass}
