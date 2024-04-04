@@ -66,7 +66,7 @@ function Resume2() {
             onClick={openCertificate}
             size="lg"
           >
-            My Resume
+            See Certificate
           </Button>
         </div>
       </div>
